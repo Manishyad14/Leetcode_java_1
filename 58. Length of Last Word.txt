@@ -1,0 +1,10 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+          s = s.trim();//here trim function is used to remove all the white spaces in the gven string but i does not remove the or change the origraml string
+        int i = s.lastIndexOf(' ');
+        int j = i+1;
+        String str = s.substring(j);//substring method is used to find the or print the specific part of the string 
+        int k = str.length();
+        return k;
+    }
+}
